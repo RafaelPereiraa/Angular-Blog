@@ -1,0 +1,25 @@
+.container__content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.content__cover > img{
+  width: 500px;
+  min-width: 500px;
+  height: 300px;
+  box-shadow: 0px 0px 13px 4px rgba(105,105,105,1);
+}
+
+.content__title {
+  margin: 10px 0px;
+}
+
+.content__description {
+  width: 900px;
+  text-align: justify;
+  font-weight: 200;
+  color: lightslategray;
+}

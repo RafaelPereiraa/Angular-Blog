@@ -1,0 +1,14 @@
+<app-menu-title></app-menu-title>
+<div class="container__articles">
+  <div class="articles__main">
+    <app-big-card id="1">
+    </app-big-card>
+  </div>
+  <div class="articles__others">
+    <li *ngFor="let elemento of dataMock | slice:1; let i = index">
+      <app-small-card id="{{elemento.id}}"></app-small-card>
+    </li>
+  </div>
+</div>
+
+

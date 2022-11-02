@@ -1,0 +1,34 @@
+.container__small-card {
+  margin: 0px 50px;
+  width: 548px;
+}
+.container__small-card-content{
+  display: flex;
+  flex-direction: row;
+  max-height: 132px;
+}
+
+.small-card__picture > a > img{
+  width: 214px;
+  height: 132px;
+  margin-right: 10px;
+}
+
+.small-card__article{
+  margin-left: 10px;
+}
+
+.small-card__article > .small-card__date > span {
+  font-size: 12px;
+  font-weight: 400;
+  color: slategray;
+}
+
+.small-card__article > .small-card__title > h1{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.container__small-card_separator > hr {
+  margin: 32px 0px;
+}
